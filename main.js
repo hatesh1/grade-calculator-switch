@@ -26,12 +26,12 @@ function calculateGrade(event) {
         case (percentage >= 90):
             grade = 'A+';
             gradePoint = 4.0;
-            remarks = 'Excellent';
+            remarks = 'Outstanding';
             break;
         case (percentage >= 80):
             grade = 'A';
             gradePoint = 3.7;
-            remarks = 'Outstanding';
+            remarks = 'Excellent';
             break;
         case (percentage >= 70):
             grade = 'B+';
